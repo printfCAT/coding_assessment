@@ -1,0 +1,150 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #D4A61C;
+}
+
+header {
+    background-color: #255D76;
+    padding: 20px 0px 10px 0;
+    display: flex;
+}
+
+.fa-bars {
+    margin: 20px 0px 0px 150px;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.fa-bars:hover {
+    color: #d3d3d3;
+    cursor: pointer;
+}
+
+header h1 {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 450px;
+}
+
+.fa-magnifying-glass {
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.fa-magnifying-glass:hover {
+    color: #d3d3d3;
+    cursor: pointer;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 380px;
+}
+
+.input-container label {
+    position: relative;
+    top: 5px;
+    font-family: sans-serif;
+}
+
+.input-container input {
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 3px solid #255D76;
+    background-color: #FCC010;
+    font-family: sans-serif;
+}
+
+.input-container input:focus {
+    border-bottom: 3px solid #255D76;
+    outline: none;
+}
+
+.input-container .rider {
+    background-color: #255D76;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.input-container .rider:focus {
+    border:none;
+}
+
+.input-container .rider:hover {
+    cursor: pointer;
+    background-color: #13435A;
+}
+
+.selection-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.selection-container .checkbox-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 380px;
+    gap: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.checkbox-list input {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+.checkbox-list input:checked {
+    background-color: #FFFFFF;
+}
+
+.checkbox-list input:hover {
+    cursor: pointer;
+}
+
+.product-by h2 {
+    margin-left: 318px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.product-by img {
+    margin-left: 180px;
+}
+
+.button-container {
+    padding-bottom: 100px;
+    margin-top: 30px;
+}
+
+.button-container button {
+    padding: 15px 155px;
+    background-color: #255D76;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 380px;
+}
+
+.button-container button:hover {
+    cursor: pointer;
+    background-color: #13435A;
+}
+
+.button-container .quote {
+    margin-left: 20px;
+}
